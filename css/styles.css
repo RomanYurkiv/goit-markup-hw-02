@@ -1,5 +1,5 @@
-body {
-    font-family: 'Roboto', sans-serif;
+body {font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
 }
 
 ul {
@@ -9,7 +9,6 @@ ul {
 a {
     text-decoration: none;
 }
-
 
 /* header */
 
@@ -41,11 +40,42 @@ span {
     letter-spacing: 0, 02em;
 }
 
-.address-item {
+.header-link:hover,
+.header-link:active {
+    color: var(--OCEAN, #404BBF);
+}
+
+.email {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-weight: 400;
     line-height: 1, 5;
+    letter-spacing: 0, 02em;
+}
+
+.email:hover,
+.email:active {
+    color: var(--OCEAN, #404BBF);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1,50;
+        letter-spacing: 0,02em;
+}
+
+.phone {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1, 5;
+    letter-spacing: 0, 02em;
+}
+
+.phone:hover,
+.phone:active {
+    color: var(--OCEAN, #404BBF);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1, 50;
     letter-spacing: 0, 02em;
 }
 
@@ -56,9 +86,7 @@ span {
 .main-title {
     color: var(--WHITE, #FFF);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1, 07;
     letter-spacing: 0, 02em
@@ -68,9 +96,14 @@ span {
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .order-button:hover {
+    background: var(--OCEAN, #404BBF);
+}
+
+.order-button:active {
     background: var(--OCEAN, #404BBF);
 }
 
@@ -102,9 +135,7 @@ span {
 
 .skill-description {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1, 50;
     letter-spacing: 0, 02em;
 }
@@ -116,7 +147,6 @@ span {
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1, 11;
@@ -126,7 +156,6 @@ span {
 
 .team-member-name {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1, 20;
@@ -135,23 +164,18 @@ span {
 
 .team-member-role {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1, 50;
     letter-spacing: 0, 02em;
 }
 
 /* Portfolio Section */
 
-.portfolio-section {
-
-}
+.portfolio-section {}
 
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1, 11;
@@ -161,7 +185,6 @@ span {
 
 .portfolio-name {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1, 20;
@@ -170,12 +193,12 @@ span {
 
 .portfolio-category {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1, 50;
     letter-spacing: 0, 02em;
 }
+
+/* -------- */
 
 /* Footer */
 
@@ -191,9 +214,9 @@ span {
 
 .footer-text {
     color: var(--SLATE, #434455);
-    font-family: Roboto;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1, 50;
     letter-spacing: 0, 02em;
 }
+
+/* -------- */
