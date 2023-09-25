@@ -1,5 +1,4 @@
 body {font-family: 'Roboto',sans-serif;
-    background: #FFFFFF;
     color: #434455;
 }
 
@@ -18,8 +17,8 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17px;
-    letter-spacing: 0,03em;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -28,8 +27,8 @@ span {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -37,8 +36,8 @@ span {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
-    letter-spacing: 0,02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -50,8 +49,8 @@ span {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
-    letter-spacing: 0,02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .email:hover,
@@ -59,16 +58,16 @@ span {
     color: #404BBF;
         font-size: 16px;
         font-weight: 400;
-        line-height: 1,50;
-        letter-spacing: 0,02em;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
 }
 
 .phone {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
-    letter-spacing: 0,02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .phone:hover,
@@ -76,8 +75,8 @@ span {
     color: #404BBF;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,50;
-    letter-spacing: 0,02em;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* -------- */
@@ -89,14 +88,14 @@ span {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1,07;
-    letter-spacing: 0,02em
+    line-height: 1.07;
+    letter-spacing: 0.02em
 }
 
 .order-button {
     border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 4px 0px rgba(0.0.0.0.15);
     cursor: pointer;
 }
 
@@ -130,15 +129,15 @@ span {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,20;
-    letter-spacing: 0,02rem;
+    line-height: 1.20;
+    letter-spacing: 0.02rem;
 }
 
 .skill-description {
     color: #434455;
     font-size: 16px;
-    line-height: 1,50;
-    letter-spacing: 0,02em;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* Team Section */
@@ -150,8 +149,8 @@ span {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,11;
-    letter-spacing: 0,02em;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -159,15 +158,15 @@ span {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,20;
-    letter-spacing: 0,02rem;
+    line-height: 1.20;
+    letter-spacing: 0.02rem;
 }
 
 .team-member-role {
     color: #434455;
     font-size: 16px;
-    line-height: 1,50;
-    letter-spacing: 0,02em;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* Portfolio Section */
@@ -179,8 +178,8 @@ span {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,11;
-    letter-spacing: 0,02em;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -188,15 +187,15 @@ span {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,20;
-    letter-spacing: 0,02rem;
+    line-height: 1.20;
+    letter-spacing: 0.02rem;
 }
 
 .portfolio-category {
     color: #434455;
     font-size: 16px;
-    line-height: 1,50;
-    letter-spacing: 0,02em;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* -------- */
@@ -208,16 +207,16 @@ span {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16px;
-    letter-spacing: 0,03em;
+    line-height: 1.16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-text {
     color: #434455;
     font-size: 16px;
-    line-height: 1,50;
-    letter-spacing: 0,02em;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* -------- */
