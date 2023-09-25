@@ -67,7 +67,7 @@ address {
         letter-spacing: 0.02em;
 }
 
-.phone {
+/* .phone {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -82,7 +82,7 @@ address {
     font-weight: 400;
     line-height: 1.50;
     letter-spacing: 0.02em;
-}
+} */
 
 /* -------- */
 
@@ -123,18 +123,6 @@ address {
 
 .skills-section {}
 
-.visually-hidden {
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .skill-name {
     color: #2E2F42;
     font-family: Roboto;
@@ -153,7 +141,13 @@ address {
 
 /* Team Section */
 
-.team-section {}
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+}
 
 .team-title {
     color: #2E2F42;
@@ -181,14 +175,6 @@ address {
 }
 
 /* Portfolio Section */
-
-.portfolio-section {
-    background-color: #F4F4FD;
-}
-
-.portfolio-item {
-    background-color: #FFFFFF;
-}
 
 .portfolio-title {
     color: #2E2F42;
