@@ -1,4 +1,5 @@
 body {font-family: 'Roboto',sans-serif;
+    background-color: #FFF;
     color: #434455;
 }
 
@@ -17,7 +18,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -45,6 +46,10 @@ span {
     color: #404BBF;
 }
 
+address {
+    font-style: normal;
+}
+
 .email {
     color: #434455;
     font-size: 16px;
@@ -54,7 +59,7 @@ span {
 }
 
 .email:hover,
-.email:active {
+.email:focus {
     color: #404BBF;
         font-size: 16px;
         font-weight: 400;
@@ -71,7 +76,7 @@ span {
 }
 
 .phone:hover,
-.phone:active {
+.phone:focus {
     color: #404BBF;
     font-size: 16px;
     font-weight: 400;
@@ -94,8 +99,11 @@ span {
 
 .order-button {
     border-radius: 4px;
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0.0.0.0.15);
+    color: #ffffff;
+    background-color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -103,7 +111,7 @@ span {
     background: #404BBF;
 }
 
-.order-button:active {
+.order-button:focus {
     background: #404BBF;
 }
 
@@ -112,7 +120,6 @@ span {
 .skills-section {}
 
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -130,7 +137,7 @@ span {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.02em;
 }
 
 .skill-description {
@@ -159,7 +166,7 @@ span {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.02em;
 }
 
 .team-member-role {
@@ -171,7 +178,13 @@ span {
 
 /* Portfolio Section */
 
-.portfolio-section {}
+.portfolio-section {
+    background-color: #F4F4FD;
+}
+
+.portfolio-list {
+    background-color: #FFFFFF;
+}
 
 .portfolio-title {
     color: #2E2F42;
