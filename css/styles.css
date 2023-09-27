@@ -35,7 +35,6 @@ a {
 
 .header-link {
     color: #2E2F42;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,7 +51,6 @@ address {
 
 .email {
     color: #434455;
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -61,10 +59,9 @@ address {
 .email:hover,
 .email:focus {
     color: #404BBF;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 /* -------- */
@@ -107,7 +104,6 @@ address {
 
 .skill-name {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
@@ -116,7 +112,6 @@ address {
 
 .skill-description {
     color: #434455;
-    font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
@@ -151,7 +146,6 @@ address {
 
 .team-member-role {
     color: #434455;
-    font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
@@ -178,7 +172,6 @@ address {
 
 .portfolio-category {
     color: #434455;
-    font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
@@ -213,7 +206,6 @@ address {
 
 .footer-text {
     color: #F4F4FD;
-    font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
